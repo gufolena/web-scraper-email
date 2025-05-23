@@ -26,7 +26,7 @@ Este é um projeto em Python que realiza web scraping do site [Books to Scrape](
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/web-scraper-email.git
+git clone https://github.com/gufolena/web-scraper-email
 cd web-scraper-email
 ```
 
