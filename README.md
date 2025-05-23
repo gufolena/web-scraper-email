@@ -35,18 +35,18 @@ cd web-scraper-email
 Você pode usar **Pipenv** ou o ambiente virtual padrão do Python:
 
 #### ✅ Opção A: Usando Pipenv (recomendado)
-
+```
 pipenv install
 pipenv shell
-
+```
 #### ✅ Opção B: Usando venv + requirements.txt
-
+```
 python -m venv venv
 venv\Scripts\activate          # Windows
 #source venv/bin/activate      # Linux/Mac
 
 pip install -r requirements.txt
-
+```
 
 
 ## ⚙️ Configuração do `.env`
