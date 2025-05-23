@@ -30,14 +30,24 @@ git clone https://github.com/gufolena/web-scraper-email
 cd web-scraper-email
 ```
 
-### 2. Crie o ambiente virtual com Pipenv
+### 2. Instale as dependências
 
-```bash
+Você pode usar **Pipenv** ou o ambiente virtual padrão do Python:
+
+#### ✅ Opção A: Usando Pipenv (recomendado)
+
 pipenv install
 pipenv shell
-```
 
----
+#### ✅ Opção B: Usando venv + requirements.txt
+
+python -m venv venv
+venv\Scripts\activate          # Windows
+#source venv/bin/activate      # Linux/Mac
+
+pip install -r requirements.txt
+
+
 
 ## ⚙️ Configuração do `.env`
 
